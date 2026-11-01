@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lighter colours so they are readable on a dark background -->
+    <color name="status_success">#FF81C784</color>
+    <color name="status_error">#FFFFB4AB</color>
+    <color name="status_active">#FF53DBC9</color>
+    <color name="goal_line">#FFFFB74D</color>
+</resources>

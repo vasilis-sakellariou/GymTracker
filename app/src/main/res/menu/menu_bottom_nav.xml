@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bottom navigation -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_program"
+        android:icon="@drawable/ic_dumbbell"
+        android:title="@string/nav_program" />
+
+    <item
+        android:id="@+id/nav_cardio"
+        android:icon="@drawable/ic_run"
+        android:title="@string/nav_cardio" />
+
+    <item
+        android:id="@+id/nav_goals"
+        android:icon="@drawable/ic_flag"
+        android:title="@string/nav_goals" />
+
+</menu>

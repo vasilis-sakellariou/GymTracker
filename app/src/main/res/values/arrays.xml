@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Stable, language-independent keys for cardio types.
+        These are what gets stored in the database, so a run logged in English
+        and a run logged in Greek are the same "running" type.
+        The display names (cardio_types) are translated and must keep the same order.
+    -->
+    <string-array name="cardio_type_keys" translatable="false">
+        <item>running</item>
+        <item>cycling</item>
+        <item>walking</item>
+        <item>swimming</item>
+        <item>elliptical</item>
+        <item>rowing</item>
+        <item>other</item>
+    </string-array>
+</resources>

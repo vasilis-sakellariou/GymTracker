@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App theme (dark). Used automatically when the phone is in dark mode. -->
+    <style name="Base.Theme.GymTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_dark</item>
+        <item name="colorOnPrimary">@color/brand_on_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_primary_container_dark</item>
+        <item name="colorSecondaryContainer">@color/brand_primary_container_dark</item>
+        <item name="colorOnSecondaryContainer">@color/brand_on_primary_container_dark</item>
+    </style>
+</resources>

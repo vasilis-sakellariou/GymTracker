@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App colours: light theme (teal) -->
+    <color name="brand_primary">#FF006A60</color>
+    <color name="brand_on_primary">#FFFFFFFF</color>
+    <color name="brand_primary_container">#FF9EF2E4</color>
+    <color name="brand_on_primary_container">#FF00201C</color>
+
+    <!-- App colours: dark theme -->
+    <color name="brand_primary_dark">#FF53DBC9</color>
+    <color name="brand_on_primary_dark">#FF003731</color>
+    <color name="brand_primary_container_dark">#FF005048</color>
+    <color name="brand_on_primary_container_dark">#FF74F8E5</color>
+
+    <!-- Goal status colours (values-night/colors.xml has the dark versions) -->
+    <color name="status_success">#FF2E7D32</color>
+    <color name="status_error">#FFBA1A1A</color>
+    <color name="status_active">#FF006A60</color>
+    <color name="goal_line">#FFE65100</color>
+</resources>

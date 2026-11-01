@@ -1,0 +1,153 @@
+<resources>
+    <!-- Default (English) strings. Greek translations live in values-el/strings.xml. -->
+    <string name="app_name" translatable="false">GymTracker</string>
+
+    <!-- ===== General ===== -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="ok">OK</string>
+    <string name="send">Send</string>
+    <string name="language">Language</string>
+    <string name="error_required">Required field</string>
+    <string name="error_invalid_number">Invalid number</string>
+    <string name="error_invalid_duration">Enter minutes (e.g. 25) or mm:ss (e.g. 25:30)</string>
+    <string name="error_save_failed">Saving failed. Please try again.</string>
+    <string name="suffix_kg">kg</string>
+    <string name="suffix_km">km</string>
+
+    <!-- ===== Login / Sign up ===== -->
+    <string name="login_subtitle">Sign in to your account</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_name">Name</string>
+    <string name="password_helper">At least 6 characters</string>
+    <string name="remember_me">Keep me signed in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="signup_title">New account</string>
+    <string name="signup_subtitle">Create an account so your program and progress are stored safely.</string>
+    <string name="create_account">Create account</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+
+    <string name="forgot_password_title">Reset password</string>
+    <string name="forgot_password_message">Enter your account email and we\'ll send you a link to set a new password.</string>
+    <string name="reset_sent_title">Check your email</string>
+    <string name="reset_sent_message">If an account exists for %1$s, a reset link has been sent. If you can\'t find it, check your Spam folder.</string>
+
+    <string name="logout">Sign out</string>
+    <string name="logout_message">Do you want to sign out? Your data stays saved in your account.</string>
+
+    <string name="auth_error_network">No internet connection.</string>
+    <string name="auth_error_too_many">Too many attempts. Please wait a moment and try again.</string>
+    <string name="auth_error_invalid_email">Invalid email</string>
+    <string name="auth_error_wrong_credentials">Wrong email or password.</string>
+    <string name="auth_error_email_in_use">An account with this email already exists.</string>
+    <string name="auth_error_weak_password">Password must be at least 6 characters</string>
+    <string name="auth_error_disabled">This account has been disabled.</string>
+    <string name="auth_error_generic">Something went wrong: %1$s</string>
+
+    <!-- ===== Bottom navigation ===== -->
+    <string name="nav_program">Program</string>
+    <string name="nav_cardio">Cardio</string>
+    <string name="nav_goals">Goals</string>
+
+    <!-- ===== Program (order: 0 = Monday ... 6 = Sunday) ===== -->
+    <string-array name="day_names">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="day_note_hint">Day note (e.g. Push, 10 min warm-up)</string>
+    <string name="empty_day">No exercises for this day yet.\nTap \"Add exercise\" to get started.</string>
+    <string name="exercise_details">%1$d sets × %2$d reps · %3$s kg</string>
+    <string name="add_exercise">Add exercise</string>
+    <string name="edit_exercise">Edit exercise</string>
+    <string name="delete_exercise">Delete exercise</string>
+    <string name="delete_exercise_message">Remove \"%1$s\" from the program? Its weight history stays in the chart.</string>
+    <string name="hint_exercise_name">Exercise name</string>
+    <string name="hint_sets">Sets</string>
+    <string name="hint_reps">Reps</string>
+    <string name="hint_weight">Weight</string>
+    <string name="hint_exercise_note">Note (optional)</string>
+    <string name="dialog_weight_info">Every time you save, the weight is logged with today\'s date for the progress chart and your goals.</string>
+
+    <!-- ===== Cardio ===== -->
+    <!-- Display names. Same order as cardio_type_keys in arrays.xml. -->
+    <string-array name="cardio_types">
+        <item>Running</item>
+        <item>Cycling</item>
+        <item>Walking</item>
+        <item>Swimming</item>
+        <item>Elliptical</item>
+        <item>Rowing</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="add_cardio">Add cardio</string>
+    <string name="edit_cardio">Edit cardio</string>
+    <string name="delete_cardio">Delete workout</string>
+    <string name="delete_cardio_message">Delete this cardio workout?</string>
+    <string name="empty_cardio">No cardio logged yet.\nTap \"Add cardio\" to get started.</string>
+    <plurals name="workouts_count">
+        <item quantity="one">%d workout</item>
+        <item quantity="other">%d workouts</item>
+    </plurals>
+    <string name="cardio_week_summary">Last 7 days: %1$s · %2$s km · %3$s</string>
+    <string name="cardio_details">%1$s km · %2$s · %3$s</string>
+    <string name="hint_cardio_type">Type</string>
+    <string name="hint_distance">Distance</string>
+    <string name="hint_duration">Time</string>
+    <string name="placeholder_duration">mm:ss</string>
+    <string name="choose_date">Choose date</string>
+
+    <!-- ===== Goals ===== -->
+    <string name="add_goal">New goal</string>
+    <string name="empty_goals">No goals yet.\nTap \"New goal\", e.g. Bench press 70 kg in 2 weeks or Running 5 km in 25 minutes.</string>
+    <string name="goal_kind_strength">Strength</string>
+    <string name="goal_kind_cardio">Cardio</string>
+    <string name="hint_target_weight">Target weight</string>
+    <string name="hint_goal_time">Time (optional)</string>
+    <string name="hint_weeks">Deadline (weeks)</string>
+    <string name="goal_deadline_helper">Ends: %1$s</string>
+    <string name="error_weeks_range">From 1 to %1$d weeks</string>
+    <string name="goal_deadline">Deadline: %1$s</string>
+    <string name="goal_title_strength">%1$s: %2$s kg</string>
+    <string name="goal_title_cardio_time">%1$s: %2$s km in %3$s</string>
+    <string name="goal_title_cardio_distance">%1$s: %2$s km</string>
+    <string name="goal_no_data">Nothing logged for this goal yet.</string>
+    <string name="goal_current_strength">Best so far: %1$s kg</string>
+    <string name="goal_current_cardio_time">Best: %1$s km in %2$s (%3$s)</string>
+    <string name="goal_current_cardio_distance">Longest distance: %1$s km</string>
+    <string name="goal_status_achieved">✓ Achieved!</string>
+    <string name="goal_status_expired">Expired</string>
+    <string name="goal_status_today">Ends today</string>
+    <string name="goal_status_one_day">1 day left</string>
+    <string name="goal_status_days_left">%1$d days left</string>
+    <string name="delete_goal">Delete goal</string>
+    <string name="delete_goal_message">Delete the goal \"%1$s\"?</string>
+
+    <!-- ===== Progress ===== -->
+    <string name="progress">Progress</string>
+    <string name="choose_exercise">Choose an exercise or cardio</string>
+    <string name="option_strength">%1$s (kg)</string>
+    <string name="option_cardio_distance">%1$s – distance (km)</string>
+    <string name="option_cardio_pace">%1$s – pace (min/km)</string>
+    <string name="no_data_for_chart">Add some exercises or cardio first to see your progress.</string>
+    <string name="progress_load_error">Could not load your data. Check your connection and try again.</string>
+    <string name="chart_no_data">No entries yet.</string>
+    <string name="chart_goal_label">Goal: %1$s</string>
+    <string name="summary_strength">Latest: %1$s kg · Max: %2$s kg · Days: %3$d</string>
+    <string name="summary_distance">Latest: %1$s km · Longest: %2$s km · Days: %3$d</string>
+    <string name="summary_pace">Latest: %1$s · Best: %2$s · Days: %3$d (lower = faster)</string>
+</resources>

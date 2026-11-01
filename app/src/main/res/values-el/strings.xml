@@ -1,0 +1,152 @@
+<resources>
+    <!-- Greek translations. Used when the app language (or the phone language) is Greek. -->
+
+    <!-- ===== General ===== -->
+    <string name="save">Αποθήκευση</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="ok">OK</string>
+    <string name="send">Αποστολή</string>
+    <string name="language">Γλώσσα</string>
+    <string name="error_required">Υποχρεωτικό πεδίο</string>
+    <string name="error_invalid_number">Μη έγκυρος αριθμός</string>
+    <string name="error_invalid_duration">Γράψε λεπτά (π.χ. 25) ή λλ:δδ (π.χ. 25:30)</string>
+    <string name="error_save_failed">Η αποθήκευση απέτυχε. Δοκίμασε ξανά.</string>
+    <string name="suffix_kg">kg</string>
+    <string name="suffix_km">km</string>
+
+    <!-- ===== Login / Sign up ===== -->
+    <string name="login_subtitle">Σύνδεση στον λογαριασμό σου</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Κωδικός</string>
+    <string name="hint_confirm_password">Επιβεβαίωση κωδικού</string>
+    <string name="hint_name">Όνομα</string>
+    <string name="password_helper">Τουλάχιστον 6 χαρακτήρες</string>
+    <string name="remember_me">Μείνετε συνδεδεμένοι</string>
+    <string name="forgot_password">Ξέχασες τον κωδικό;</string>
+    <string name="login">Σύνδεση</string>
+    <string name="signup">Εγγραφή</string>
+    <string name="no_account">Δεν έχεις λογαριασμό;</string>
+    <string name="have_account">Έχεις ήδη λογαριασμό;</string>
+    <string name="signup_title">Νέος λογαριασμός</string>
+    <string name="signup_subtitle">Φτιάξε λογαριασμό για να αποθηκεύονται με ασφάλεια το πρόγραμμα και η πρόοδός σου.</string>
+    <string name="create_account">Δημιουργία λογαριασμού</string>
+    <string name="error_passwords_mismatch">Οι κωδικοί δεν ταιριάζουν</string>
+
+    <string name="forgot_password_title">Επαναφορά κωδικού</string>
+    <string name="forgot_password_message">Γράψε το email του λογαριασμού σου και θα σου στείλουμε σύνδεσμο για να ορίσεις νέο κωδικό.</string>
+    <string name="reset_sent_title">Έλεγξε το email σου</string>
+    <string name="reset_sent_message">Αν υπάρχει λογαριασμός με το %1$s, στάλθηκε σύνδεσμος επαναφοράς. Αν δεν το βρίσκεις, κοίτα και στα Ανεπιθύμητα (Spam).</string>
+
+    <string name="logout">Αποσύνδεση</string>
+    <string name="logout_message">Θέλεις να αποσυνδεθείς; Τα δεδομένα σου μένουν αποθηκευμένα στον λογαριασμό σου.</string>
+
+    <string name="auth_error_network">Δεν υπάρχει σύνδεση στο internet.</string>
+    <string name="auth_error_too_many">Πολλές προσπάθειες. Περίμενε λίγο και δοκίμασε ξανά.</string>
+    <string name="auth_error_invalid_email">Μη έγκυρο email</string>
+    <string name="auth_error_wrong_credentials">Λάθος email ή κωδικός.</string>
+    <string name="auth_error_email_in_use">Υπάρχει ήδη λογαριασμός με αυτό το email.</string>
+    <string name="auth_error_weak_password">Ο κωδικός πρέπει να έχει τουλάχιστον 6 χαρακτήρες</string>
+    <string name="auth_error_disabled">Ο λογαριασμός έχει απενεργοποιηθεί.</string>
+    <string name="auth_error_generic">Κάτι πήγε στραβά: %1$s</string>
+
+    <!-- ===== Bottom navigation ===== -->
+    <string name="nav_program">Πρόγραμμα</string>
+    <string name="nav_cardio">Cardio</string>
+    <string name="nav_goals">Στόχοι</string>
+
+    <!-- ===== Program (order: 0 = Monday ... 6 = Sunday) ===== -->
+    <string-array name="day_names">
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+        <item>Κυριακή</item>
+    </string-array>
+
+    <string name="day_note_hint">Σημείωση ημέρας (π.χ. Push, ζέσταμα 10 λεπτά)</string>
+    <string name="empty_day">Δεν υπάρχουν ασκήσεις για αυτή τη μέρα.\nΠάτα «Προσθήκη άσκησης» για να ξεκινήσεις.</string>
+    <string name="exercise_details">%1$d σετ × %2$d επαν. · %3$s kg</string>
+    <string name="add_exercise">Προσθήκη άσκησης</string>
+    <string name="edit_exercise">Επεξεργασία άσκησης</string>
+    <string name="delete_exercise">Διαγραφή άσκησης</string>
+    <string name="delete_exercise_message">Να αφαιρεθεί η άσκηση «%1$s» από το πρόγραμμα; Το ιστορικό κιλών της μένει στο διάγραμμα.</string>
+    <string name="hint_exercise_name">Όνομα άσκησης</string>
+    <string name="hint_sets">Σετ</string>
+    <string name="hint_reps">Επαναλήψεις</string>
+    <string name="hint_weight">Κιλά</string>
+    <string name="hint_exercise_note">Σχόλιο (προαιρετικό)</string>
+    <string name="dialog_weight_info">Με κάθε αποθήκευση, τα κιλά καταγράφονται με τη σημερινή ημερομηνία για το διάγραμμα προόδου και τους στόχους.</string>
+
+    <!-- ===== Cardio ===== -->
+    <!-- Display names. Same order as cardio_type_keys in values/arrays.xml. -->
+    <string-array name="cardio_types">
+        <item>Τρέξιμο</item>
+        <item>Ποδήλατο</item>
+        <item>Περπάτημα</item>
+        <item>Κολύμβηση</item>
+        <item>Ελλειπτικό</item>
+        <item>Κωπηλατική</item>
+        <item>Άλλο</item>
+    </string-array>
+
+    <string name="add_cardio">Προσθήκη cardio</string>
+    <string name="edit_cardio">Επεξεργασία cardio</string>
+    <string name="delete_cardio">Διαγραφή προπόνησης</string>
+    <string name="delete_cardio_message">Να διαγραφεί αυτή η προπόνηση cardio;</string>
+    <string name="empty_cardio">Δεν έχεις καταγράψει ακόμα cardio.\nΠάτα «Προσθήκη cardio» για να ξεκινήσεις.</string>
+    <plurals name="workouts_count">
+        <item quantity="one">%d προπόνηση</item>
+        <item quantity="other">%d προπονήσεις</item>
+    </plurals>
+    <string name="cardio_week_summary">Τελευταίες 7 μέρες: %1$s · %2$s km · %3$s</string>
+    <string name="cardio_details">%1$s km · %2$s · %3$s</string>
+    <string name="hint_cardio_type">Είδος</string>
+    <string name="hint_distance">Απόσταση</string>
+    <string name="hint_duration">Χρόνος</string>
+    <string name="placeholder_duration">λλ:δδ</string>
+    <string name="choose_date">Επιλογή ημερομηνίας</string>
+
+    <!-- ===== Goals ===== -->
+    <string name="add_goal">Νέος στόχος</string>
+    <string name="empty_goals">Δεν έχεις στόχους ακόμα.\nΠάτα «Νέος στόχος», π.χ. Πάγκος 70 kg σε 2 εβδομάδες ή Τρέξιμο 5 km σε 25 λεπτά.</string>
+    <string name="goal_kind_strength">Δύναμη</string>
+    <string name="goal_kind_cardio">Cardio</string>
+    <string name="hint_target_weight">Στόχος κιλών</string>
+    <string name="hint_goal_time">Χρόνος (προαιρ.)</string>
+    <string name="hint_weeks">Προθεσμία (εβδομάδες)</string>
+    <string name="goal_deadline_helper">Λήξη: %1$s</string>
+    <string name="error_weeks_range">Από 1 έως %1$d εβδομάδες</string>
+    <string name="goal_deadline">Προθεσμία: %1$s</string>
+    <string name="goal_title_strength">%1$s: %2$s kg</string>
+    <string name="goal_title_cardio_time">%1$s: %2$s km σε %3$s</string>
+    <string name="goal_title_cardio_distance">%1$s: %2$s km</string>
+    <string name="goal_no_data">Δεν υπάρχει ακόμα καταγραφή για αυτόν τον στόχο.</string>
+    <string name="goal_current_strength">Καλύτερο μέχρι τώρα: %1$s kg</string>
+    <string name="goal_current_cardio_time">Καλύτερο: %1$s km σε %2$s (%3$s)</string>
+    <string name="goal_current_cardio_distance">Μεγαλύτερη απόσταση: %1$s km</string>
+    <string name="goal_status_achieved">✓ Επιτεύχθηκε!</string>
+    <string name="goal_status_expired">Έληξε</string>
+    <string name="goal_status_today">Λήγει σήμερα</string>
+    <string name="goal_status_one_day">Απομένει 1 μέρα</string>
+    <string name="goal_status_days_left">Απομένουν %1$d μέρες</string>
+    <string name="delete_goal">Διαγραφή στόχου</string>
+    <string name="delete_goal_message">Να διαγραφεί ο στόχος «%1$s»;</string>
+
+    <!-- ===== Progress ===== -->
+    <string name="progress">Πρόοδος</string>
+    <string name="choose_exercise">Επίλεξε άσκηση ή cardio</string>
+    <string name="option_strength">%1$s (kg)</string>
+    <string name="option_cardio_distance">%1$s – απόσταση (km)</string>
+    <string name="option_cardio_pace">%1$s – ρυθμός (λεπτά/km)</string>
+    <string name="no_data_for_chart">Πρόσθεσε πρώτα ασκήσεις ή cardio για να δεις την πρόοδό σου.</string>
+    <string name="progress_load_error">Δεν φορτώθηκαν τα δεδομένα. Έλεγξε τη σύνδεση και δοκίμασε ξανά.</string>
+    <string name="chart_no_data">Δεν υπάρχουν ακόμα καταγραφές.</string>
+    <string name="chart_goal_label">Στόχος: %1$s</string>
+    <string name="summary_strength">Τελευταία: %1$s kg · Μέγιστο: %2$s kg · Ημέρες: %3$d</string>
+    <string name="summary_distance">Τελευταία: %1$s km · Μέγιστη: %2$s km · Ημέρες: %3$d</string>
+    <string name="summary_pace">Τελευταίος: %1$s · Καλύτερος: %2$s · Ημέρες: %3$d (μικρότερο = ταχύτερο)</string>
+</resources>
